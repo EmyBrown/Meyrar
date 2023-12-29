@@ -1,0 +1,24 @@
+<model-viewer src="digestive-system.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.png" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="2.941658979023352m 33.50248680029137m 4.921674367145561m" data-normal="0.11862723833946431m 0.10129995817038975m 0.9877580153046743m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">stomach</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-1.4436993637075823m 59.915624051100835m -1.2179224384014962m" data-normal="0.2443792040986439m 0.6452813868131019m 0.7238029679661955m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Esophagus</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-8.057621888196833m 38.628438626449054m 4.050372548618888m" data-normal="-0.4900915314343912m 0.0762970332824553m 0.8683254306586841m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Liver</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="4.322118458508228m 29.55170628285361m -18.313500165119677m" data-normal="-0.000004021220525171327m -0.30128945072835683m -0.953532729833452m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pancreas</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="2.072805389891646m 19.647694959285065m 4.864110139937608m" data-normal="0.09536126330754056m -0.0647469148127804m 0.9933348209353261m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Small Intestine</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="6.53102052671294m 11.743019590465757m 1.853199812579085m" data-normal="0.2764768951640277m -0.1599608967057317m 0.947614393076402m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Large Intestine</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
