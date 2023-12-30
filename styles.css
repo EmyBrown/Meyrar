@@ -357,9 +357,9 @@ model-viewer > .ar-prompt > img {
   /* position: absolute; */
   /* bottom:60px; */
   /* left:340px; */
-  height: 20px;
+  height: 60px;
   width:100%;
-  background-color: #4285f4;
+  background-color: #201b3a;
   padding-top: 40px;
   /* margin-top: 345px; */
 }
@@ -434,7 +434,7 @@ model-viewer > .ar-prompt > img {
 /* position: absolute; */
   /* bottom:60px; */
   /* left:340px; */
-  height: 20px;
+  height: 60px;
   width:100%;
   background-color: #201b3a;
   padding-top: 40px;
@@ -447,7 +447,7 @@ model-viewer > .ar-prompt > img {
 /* plant cell */
 
 .card-plant{
-  height: 20px;
+  height: 60px;
   width:100%;
   background-color: #201b3a;
   padding-top: 40px;
@@ -478,7 +478,7 @@ model-viewer > .ar-prompt > img {
 
 
 .card-heart{
-  height: 20px;
+  height: 60px;
   width:100%;
   background-color: #201b3a;
   padding-top: 40px;
@@ -494,7 +494,7 @@ model-viewer > .ar-prompt > img {
 
 /* Human brain */
 .card-Brain{
-  height: 100px;
+  height: 60px;
   width:100%;
   background-color: #201b3a;
   padding-top: 40px;
@@ -525,10 +525,11 @@ model-viewer > .ar-prompt > img {
  }
 
  .card-renal{
-  height: 20px;
+  height: 60px;
   width:100%;
   background-color: #201b3a;
-  padding-top: 40px;
+  padding-top: 20px;
+ 
 }
 
 #renal{
