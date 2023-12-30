@@ -143,7 +143,9 @@ header {
 } 
 
 /* end of header */
-.upper{
+
+/* start of animated text*/
+#upper{
     background-color: #485484;
     width: 100%;
     height: 100vh;
@@ -155,14 +157,21 @@ header {
 .upper h3{
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 6em;
+    font-size: 10em;
+  font-weight: bold;
+  
     
 }
 
 .typing{
-    color:#f7ce4b;
+    color:#ffd086;
+/*       43cdc0 */
+/*   #f7ce4b */
 }
 
+/* end of animated text */
+
+/* start of augmented reality and 3D model */
 
 :not(:defined) > * {
   display: none;
